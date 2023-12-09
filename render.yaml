@@ -5,7 +5,7 @@ services:
     env: node
     rootDir: .
     autoDeploy: false
-    repo: https://github.com/sytpb/chatgpt-wework-robot # optional
+    repo: https://github.com/egenchen/chatgpt-wework-robot # optional
     region: oregon       # optional (defaults to oregon)
     plan: free              # optional (defaults to starter instance type)
     branch: main            # optional (defaults to master)
