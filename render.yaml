@@ -7,7 +7,7 @@ services:
     autoDeploy: false
     repo: https://github.com/egenchen/chatgpt-wework-robot # optional
     region: oregon       # optional (defaults to oregon)
-    plan: free              # optional (defaults to starter instance type)
+    plan: starter              # optional (defaults to starter instance type)
     branch: main            # optional (defaults to master)
     healthCheckPath: /healthz
     buildCommand: npm install
